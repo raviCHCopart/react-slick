@@ -1,6 +1,6 @@
 {
   "name": "copart-slick",
-  "version": "0.23.1",
+  "version": "0.23.4",
   "description": " React port of slick carousel",
   "main": "./lib",
   "files": ["dist", "lib"],
