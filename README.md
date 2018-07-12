@@ -11,13 +11,13 @@
 **npm**
 
 ```bash
-npm install react-slick
+npm install copart-slick
 ```
 
 **yarn**
 
 ```bash
-yarn add react-slick
+yarn add copart-slick
 ```
 
 ⚠️ Also install slick-carousel for css and font
@@ -40,8 +40,8 @@ or add cdn link in your html
 ### Example
 
 ```js
-import React from "react";
-import Slider from "react-slick";
+import React from 'react'
+import Slider from 'copart-slick'
 
 class SimpleSlider extends React.Component {
   render() {
@@ -51,7 +51,7 @@ class SimpleSlider extends React.Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1
-    };
+    }
     return (
       <Slider {...settings}>
         <div>
@@ -73,7 +73,7 @@ class SimpleSlider extends React.Component {
           <h3>6</h3>
         </div>
       </Slider>
-    );
+    )
   }
 }
 ```
@@ -91,7 +91,7 @@ For all available methods, go [here](https://react-slick.neostack.com/docs/api#m
 Want to run demos locally
 
 ```bash
-git clone https://github.com/akiran/react-slick
+git clone https://github.com/raviCHCopart/react-slick
 cd react-slick
 npm install
 npm start

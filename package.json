@@ -11,15 +11,14 @@
     "test": "eslint src && jest",
     "test:watch": "jest --watch",
     "lint": "eslint src",
-    "gen":
-      "node examples/scripts/generateExampleConfigs.js && node examples/scripts/generateExamples.js && xdg-open docs/jquery.html",
+    "gen": "node examples/scripts/generateExampleConfigs.js && node examples/scripts/generateExamples.js && xdg-open docs/jquery.html",
     "precommit": "lint-staged"
   },
   "author": "Kiran Abburi",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akiran/react-slick"
+    "url": "https://github.com/raviCHCopart/react-slick"
   },
   "keywords": [
     "slick",
@@ -100,16 +99,14 @@
     "*.{js,json,md}": ["prettier --write", "git add"]
   },
   "npmName": "react-slick",
-  "npmFileMap": [
-    {
-      "basePath": "/dist/",
-      "files": ["*.js"]
-    }
-  ],
+  "npmFileMap": [{
+    "basePath": "/dist/",
+    "files": ["*.js"]
+  }],
   "bugs": {
-    "url": "https://github.com/akiran/react-slick/issues"
+    "url": "https://github.com/raviCHCopart/react-slick/issues"
   },
-  "homepage": "https://github.com/akiran/react-slick",
+  "homepage": "https://github.com/raviCHCopart/react-slick",
   "collective": {
     "type": "opencollective",
     "url": "https://opencollective.com/react-slick",
