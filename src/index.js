@@ -1,3 +1,4 @@
-import Slider from "./slider";
+import Slider from './slider'
 
-export default Slider;
+export { CustomSlide, getExtension } from './cusotm-slide'
+export default Slider
